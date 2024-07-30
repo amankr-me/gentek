@@ -4,7 +4,7 @@
   height: 108%;
   position: absolute;
   left: 0;
-  top: 35px;
+  top: 0;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(
@@ -41,6 +41,7 @@ ul.nav {
 .videotext {
   color: #fff;
   margin-top: -40%;
+  z-index:3;
 }
 .card-deck .card {
   z-index: 2;
@@ -86,7 +87,8 @@ nav a {
     background-image: url(images/lab/gallery.jpg);
   }
 .top-section {
-  z-index: 9;
+  z-index: 9;    position: absolute;
+  width: 100%;
 }
 .sidenav {
   height: 100%;
@@ -250,3 +252,50 @@ a:hover {
   background: #b3d4fc;
   text-shadow: none;
 }
+#fixed-social {
+  position: fixed;
+  top: 40vh;
+  z-index: 3;
+}
+#fixed-social a {
+  color: #fff;
+  display: block;
+  height: 60px;
+  position: relative;
+  text-align: center;
+  line-height: 60px;
+  width: 60px;
+  margin-bottom: 1px;
+  z-index: 2;
+  background-color: #273656;
+}
+#fixed-social i {
+  color: #000;
+  font-size: 2rem;
+}
+#fixed-social i svg {
+  width: 70%;
+}
+#fixed-social i svg {
+  width: 70%;
+}
+#fixed-social a span {
+  line-height: 60px;
+  left: 80px;
+  position: absolute;
+  text-align: center;
+  width: 185px;
+  visibility: hidden;
+  transition-duration: 0.5s;
+  z-index: 1;
+  opacity: 0;
+  background-color: #15ff00;
+  color:#273656;
+}
+#fixed-social a:hover>span {
+  visibility: visible;
+  left: 61px;
+  opacity: 1;
+}
+
+/*#15ff00*/

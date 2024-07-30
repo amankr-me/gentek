@@ -60,7 +60,7 @@ p {
   text-align: left;
 }
 .title-image {
-  width: 90%;
+  width: 65%;
   border-radius: 1%;
 }
 .title-heading {
@@ -131,7 +131,7 @@ p {
   background-color: #da2d2d;
 }
 .footer-section {
-  background-color: #181818;
+  background-color: #273656;
   color: #fff;
   padding: 5%;
   text-align: center;
