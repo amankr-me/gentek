@@ -1,7 +1,7 @@
 .hero-video-container.home-video:after {
   content: "";
   width: 100%;
-  height: 108%;
+  height: 117%;
   position: absolute;
   left: 0;
   top: 0;
@@ -297,5 +297,6 @@ a:hover {
   left: 61px;
   opacity: 1;
 }
-
+.copyright .pull-right{float:right;}
+.copyright .pull-left{float:left;}
 /*#15ff00*/
