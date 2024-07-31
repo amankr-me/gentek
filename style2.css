@@ -306,6 +306,10 @@ a:hover {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.5;
+  opacity: 0.3;
+}
+.introtext{
+  margin-top: -330px;
+  padding: 0 20%;
 }
 /*#15ff00*/
