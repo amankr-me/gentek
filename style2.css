@@ -299,4 +299,12 @@ a:hover {
 }
 .copyright .pull-right{float:right;}
 .copyright .pull-left{float:left;}
+.introdiv{
+  background-image: url(images/logo_new/png/onlylogo.png);
+  background-size: contain;
+  height: 400px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /*#15ff00*/
