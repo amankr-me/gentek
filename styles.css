@@ -125,6 +125,7 @@ p {
 .footer-p {
   font-size: 0.9rem;
   line-height: 1;
+  text-align: left;
 }
 .footer-rule {
   height: 3px;
@@ -137,8 +138,16 @@ p {
   text-align: center;
 }
 .footer-small-heading {
-  color: #7f7f7f;
+  color: #fff;
   font-size: 1.5rem;
+  text-align: left;
+}
+.footer-small-subtitle {
+  color: #fff;
+  font-size: 1.0rem;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: #15ff00;
 }
 .first-col {
   text-align: center;
@@ -162,6 +171,36 @@ p {
 }
 .copyright p  a{
  color:#fff;}
+
+ .whySection {
+  width: 100%;
+  float: left;
+  height: auto;
+  padding: 80px 0;
+  position: relative;
+  background: url(../images/whybanner.jpg) center center no-repeat;
+  background-attachment: fixed;
+  margin-top: 65px;
+  z-index: 9;
+}
+.whySection:before {
+  background: -moz-linear-gradient(left, rgba(159, 50, 36, 0.9) 0%, rgba(212, 23, 30, 0.9) 100%);
+  background: -webkit-linear-gradient(left, rgba(159, 50, 36, 0.9) 0%, rgba(212, 23, 30, 0.9) 100%);
+  background: linear-gradient(to right, rgba(159, 50, 36, 0.9) 0%, rgba(212, 23, 30, 0.9) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b39f3224', endColorstr='#b3d4171e',GradientType=1 );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 @media (max-width: 1028px) {
 }
 @media (max-width: 700px) {
@@ -236,8 +275,16 @@ p {
     font-size: 1rem;
   } /* footer section */
   .footer-small-heading {
-    color: #7f7f7f;
+    color: #fff;
     font-size: 2.3rem;
+    text-align: center;
+  }
+  .footer-small-subtitle {
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: #15ff00;
   }
   .footer-brand {
     font-size: 3rem;
@@ -245,6 +292,7 @@ p {
   }
   .footer-p {
     font-size: 1.2rem;
+    text-align: center;
   }
   .footer-icon {
     margin: 20px;
@@ -259,4 +307,8 @@ p {
   .copyright p {
     margin-bottom: 0;
   }
+  .whySection {
+    padding: 15px 0;
+    margin-top: 15px;
+}
 }
