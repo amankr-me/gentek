@@ -149,6 +149,11 @@ p {
   text-decoration: underline;
   text-decoration-color: #15ff00;
 }
+.footer-small-contact-subtitle {
+  color: #000;
+  font-size: 1.0rem;
+  text-align: left;
+}
 .first-col {
   text-align: center;
 }
@@ -285,6 +290,11 @@ p {
     text-align: center;
     text-decoration:underline;
     text-decoration-color: #15ff00;
+  }
+  .footer-small-contact-subtitle {
+    color: #000;
+    font-size: 1.8rem;
+    text-align: center;
   }
   .footer-brand {
     font-size: 3rem;
