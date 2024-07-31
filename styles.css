@@ -150,9 +150,12 @@ p {
  
 }
 .footer-small-contact-subtitle {
-  color: #000;
+  color: #273656;
   font-size: 1.0rem;
   text-align: left;
+  font-weight: 800;
+  font-size: 28px;
+
 }
 .first-col {
   text-align: center;
@@ -298,9 +301,11 @@ p {
     
   }
   .footer-small-contact-subtitle {
-    color: #000;
+    color: #273656;
     font-size: 1.8rem;
     text-align: center;
+    font-weight: 900;
+    font-size: 28px;
   }
   .footer-brand {
     font-size: 3rem;
