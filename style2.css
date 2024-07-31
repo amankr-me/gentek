@@ -71,20 +71,20 @@ nav a {
   margin-top: 1.4rem;
 }
 .menu.col-md-12.cover {
-  background-image: url(images/images/aboutus.jpg);
+  background-image: url(images/header_images/female-researcher-male-colleague-laboratory-with-test-tubes-safety-glasses.jpg);
   height: 500px;
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .menu.col-md-12.cover.service {
-  background-image: url(images/images/services.jpg);
+  background-image: url(images/header_images/medical-banner-with-doctor-holding-vial.jpg);
 }
 .menu.col-md-12.cover.contact {
-  background-image: url(images/images/contactus.jpg);
+  background-image: url(images/header_images/pexels-polina-tankilevitch-3735782.jpg);
 }
 .menu.col-md-12.cover.gallery {
-    background-image: url(images/lab/gallery.jpg);
+    background-image: url(images/header_images/laboratory-glassware-microscope-arrangement.jpg);
   }
 .top-section {
   z-index: 9;    position: absolute;
