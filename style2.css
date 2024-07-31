@@ -306,5 +306,6 @@ a:hover {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 0.5;
 }
 /*#15ff00*/

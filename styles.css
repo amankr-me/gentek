@@ -80,10 +80,7 @@ p {
   padding-left: 10%;
   padding-right: 10%;
 }
-.container {
-  height: 100%;
-  background: #f0e68c;
-}
+
 #about-section .container-fluid {
   height: 100%;
 } /* design & development */
