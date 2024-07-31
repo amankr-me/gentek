@@ -85,26 +85,30 @@ p {
   height: 100%;
 } /* design & development */
 .skills {
-  background-color: #27496d;
+  background-color: #273656;
+  background-color: #273656d6;
   color: #dae1e7;
   font-family: "Montserrat";
 }
-#services .container-fluid {
-  padding-bottom: 3%;
-}
+
 .skills h2 {
   margin-bottom: 0%;
 }
 .skill-row {
-  margin: 100px auto 100px auto;
-  width: 80%;
+ /* margin: 0px 0px 0px 0px; */
+ /* margin: 20px auto 80px auto; */
+  width: 50%;
   text-align: left;
+}
+.weoffer{
+  padding-top: 7vh;    margin-left: 66vh;text-align: left;
 }
 .comp-img {
   border-radius: 50%;
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+  width: 60%;
+  /* float: left; */
+  /* margin-right: 10vh; */
+  margin: 40px 0 0 0;
 }
 .chilies {
   border-radius: 50%;
@@ -140,11 +144,10 @@ p {
   text-align: left;
 }
 .footer-small-subtitle {
-  color: #fff;
-  font-size: 1.0rem;
+  color: #15ff00;
+  font-size: 1.3rem;
   text-align: left;
-  text-decoration: underline;
-  text-decoration-color: #15ff00;
+ 
 }
 .footer-small-contact-subtitle {
   color: #000;
@@ -160,12 +163,18 @@ p {
 .footer-brand {
   font-family: "Ubuntu";
 }
+#services{
+  background-image: url(images/header_images/lab-technician-mask-examines-test-tubes-utilizes-microscope-analysis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .copyright {
-  background-color: #333;
+  background-color: #030b1f;
+  
   color: #fff;
   text-align: center;
   padding: 0.5%;
-  display: inline-block;
+  display: inline-table;
   width: 100%;
 }
 .copyright p {
@@ -241,14 +250,15 @@ p {
     text-align: left;
   }
   .services-h2 {
-    font-size: 3rem;
+    font-size: 4.0rem;
   }
   .services-h3 {
     font-size: 2.3rem;
   }
   .services-p {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
   }
+
   p {
     line-height: 1.4;
   }
@@ -318,4 +328,15 @@ p {
     padding: 15px 0;
     margin-top: 15px;
 }
+.servicesDetails ul {
+  font-size: 1.5rem;
+  text-align:left;
+  margin: 0px 0px;
+}
+
+}
+.servicesDetails ul {
+  font-size: 1.5rem;
+  text-align:left;
+  margin: 100px auto;
 }
