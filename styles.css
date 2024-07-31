@@ -14,7 +14,7 @@ p {
   line-height: 2;
 }
 .top-section {
-  background-color: #801336;
+  background-color: #273656;
   color: #fff;
   margin-bottom: 4px;
   padding-bottom: 4px;
@@ -292,11 +292,10 @@ p {
     text-align: center;
   }
   .footer-small-subtitle {
-    color: #fff;
+    color: #15ff00;
     font-size: 1.8rem;
     text-align: center;
-    text-decoration:underline;
-    text-decoration-color: #15ff00;
+    
   }
   .footer-small-contact-subtitle {
     color: #000;
