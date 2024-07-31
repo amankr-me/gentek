@@ -142,6 +142,9 @@ a:hover {
     width: 80%;
     float: left;
   }
+  #carouselExampleIndicators .carousel-item{
+    height:44vh;
+  }
 }
 @media screen and (max-width: 767px) {
   .topright {
