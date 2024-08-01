@@ -149,10 +149,10 @@ a:hover {
     display: none;
   }
   .title-image {
-    width: 100%;
+    width: 80%;
     float: left;
   }
-  .toplogo.title-image {width:55%;}
+  
   #carouselExampleIndicators .carousel-item{
     height:44vh;
   }
