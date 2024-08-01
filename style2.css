@@ -178,9 +178,9 @@ a:hover {
     display: block;
     margin-top: 5%;
   }
-  .hero-video-container.home-video:after {
+  /* .hero-video-container.home-video:after {
     top: 76px;
-  }
+  } */
   .videotext {
     margin-top: -32%;
   }
@@ -191,9 +191,9 @@ a:hover {
   .title-heading {
     font-size: 0;
   }
-  .hero-video-container.home-video:after {
+  /* .hero-video-container.home-video:after {
     height: auto;
-  }
+  } */
   #title .container-fluid {
     padding: 0;
   }
