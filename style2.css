@@ -149,7 +149,7 @@ a:hover {
     display: none;
   }
   .title-image {
-    width: 80%;
+    width: 100%;
     float: left;
   }
   .toplogo.title-image {width:55%;}
