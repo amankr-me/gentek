@@ -130,10 +130,17 @@ a:hover {
   font-weight: 800;
   font-size: 5rem;
   padding-top: 10%;
+  z-index: 3;
+  position: relative;
 }
+.aboutfirstSec{
+  text-align: justify;
+}
+.aboutimg1,.aboutimg2{border: 10px solid #004085;}
+.aboutimg2{margin:15px 0;}
 @media screen and (max-width: 767px) {
   .SlideShow_Height {
-    height: 315px !important;
+    height: 190px !important;
   }
   .col-md-8.hidden-xs {
     display: none;
@@ -155,7 +162,7 @@ a:hover {
     padding: 0;
   }
   .hero-video-container video {
-    margin-top: -4.3rem;
+    margin-top: -5.2rem;
   }
   .topleft {
     text-align: center;
@@ -196,6 +203,8 @@ a:hover {
     font-weight: 800;
     font-size: 40px;
     padding-top: 30%;
+    z-index: 3;
+    position: relative;
   }
   .menu.col-md-12.cover {
     height: 200px;
@@ -207,6 +216,7 @@ a:hover {
     text-align: center;
 
   }
+  .copyright .pull-left,.copyright .pull-right{float: none !important;        display: block;}
 }
 .menu.col-md-12.cover:after {
   content: "";

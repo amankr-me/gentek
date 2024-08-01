@@ -320,11 +320,12 @@ p {
     font-size: 3rem;
   }
   .copyright {
-    background-color: #333;
+    
     color: #fff;
     text-align: center;
     padding: 0.5%;
   }
+ 
   .copyright p {
     margin-bottom: 0;
   }
