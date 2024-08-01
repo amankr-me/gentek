@@ -38,8 +38,14 @@ p {
   background-size: cover;
 } /* Containers */
 .container-fluid {
-  padding: 7% 11%;
-} /* Navigation bar */
+   padding: 7% 11%; 
+    
+} 
+.introcont{
+  padding: 10% 11%;
+  padding-top: 0;
+}
+/* Navigation bar */
 .navbar {
   padding: 0 0 4.5rem;
 }
