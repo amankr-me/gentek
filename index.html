@@ -15,9 +15,17 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
     <title>Best Website Design and Website Development Company in Bhagalpur,Bihar | Gentek Lab</title>
     <link rel="stylesheet" href="style2.css?ver=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
 </head>
 
 <body>
+    <script>
+        AOS.init({
+          duration: 2000
+        });
+      </script>
     <div class='SlideShow_Height'>
         <!--  <section class="top-section">
         <div class="container-fluid">
@@ -75,7 +83,7 @@
                 <source type="video/mp4" src="video/4114797-uhd_3840_2160_25fps.mp4">Your browser does not support this
                 video.
             </video>
-            <div class="col-lg-12 videotext">
+            <div class="col-lg-12 videotext " data-aos="zoom-in">
                 <h3 class="title-h3">Best Pathology Lab & Diagnostic Centre in Bhagalpur Bihar</h3>
                 <h1 class="title-heading">Discover A New Era Of Personalized Testing
                 </h1>
@@ -167,10 +175,10 @@
     </section>
     <div class="clearfix"></div>
     <section id="intro">
-        <div class="container container-fluid">
+        <div class="container container-fluid" >
             <div class="introdiv">
             </div>
-              <div class="introtext"> <h1>Welcome to Gentek Lab
+              <div class="introtext aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"> <h1>Welcome to Gentek Lab
                 We'll Ensure You Always Get The Best Result.</h1> 
                <p>Gentek Lab Centre in Bhagalpur is one of the leading businesses in the Pathology Labs.
                  Also known for Pathology Labs, Diagnostic Centres, Blood Testing Centres, Blood Test Home Visit,
@@ -362,9 +370,10 @@
                         href="https://vikramshilasoftwares.in">Powered By Vikramshila Softwares</a></span></p>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
@@ -376,6 +385,8 @@
             $('.SlideShow_Height').css({ 'height': (($(window).height()) + 160) + 'px' });
             $('.one-fifth-screen').css({ 'height': (($(window).height())) + 'px', 'min-height': (($(window).height())) + 'px' });
         });</script>
+        
+      
 </body>
 
 </html>
