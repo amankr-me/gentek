@@ -84,7 +84,7 @@ nav a {
   background-image: url(images/header_images/pexels-polina-tankilevitch-3735782.jpg);
 }
 .menu.col-md-12.cover.gallery {
-    background-image: url(images/header_images/laboratory-glassware-microscope-arrangement.jpg);
+    background-image: url(images/header_images/scientist-working-with-chemical-substances.jpg);
   }
 .top-section {
   z-index: 9;    position: absolute;
@@ -199,6 +199,13 @@ a:hover {
   }
   .menu.col-md-12.cover {
     height: 200px;
+  }
+  .copyright .pull-right{
+    text-align: center;
+  }
+  .copyright .pull-left{
+    text-align: center;
+
   }
 }
 .menu.col-md-12.cover:after {
