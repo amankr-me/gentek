@@ -198,7 +198,7 @@ a:hover {
     display: inline-block;
   }
   .title-heading {
-    font-size: 0;
+    font-size: 0;display: none;
   }
   /* .hero-video-container.home-video:after {
     height: auto;
