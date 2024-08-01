@@ -149,11 +149,17 @@ a:hover {
     display: none;
   }
   .title-image {
-    width: 80%;
+    width: 55%;
     float: left;
   }
   #carouselExampleIndicators .carousel-item{
     height:44vh;
+  }
+  .hero-video-container.home-video:after{
+    height: 35vh;
+  }
+  video{
+    height: 41vh;
   }
 }
 @media screen and (max-width: 767px) {
