@@ -17,6 +17,9 @@
     rgba(0, 0, 0, 0.5) 100%
   );
 }
+.win .hero-video-container.home-video:after{
+  height: 116.4%;
+}
  #about-section .card-img,#about-section .card-img-top {
   object-fit: cover;
   height: 300px;
