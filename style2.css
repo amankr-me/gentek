@@ -156,10 +156,10 @@ a:hover {
     height:44vh;
   }
   .hero-video-container.home-video:after{
-    height: 35vh;
+    height: 26vh;
   }
   video{
-    height: 41vh;
+    height: 31vh;
   }
 }
 @media screen and (max-width: 767px) {
