@@ -160,17 +160,18 @@ a:hover {
     display: none;
   }
   .title-image {
-    width: 55%;
+    width: 80%;
     float: left;
   }
+  
   #carouselExampleIndicators .carousel-item{
     height:44vh;
   }
   .hero-video-container.home-video:after{
-    height: 35vh;
+    height: 26vh;
   }
   video{
-    height: 41vh;
+    height: 31vh;
   }
 }
 @media screen and (max-width: 767px) {
@@ -182,7 +183,7 @@ a:hover {
     padding: 0;
   }
   .hero-video-container video {
-    margin-top: -5.2rem;
+    margin-top: -6.4rem;
   }
   .topleft {
     text-align: center;
@@ -209,7 +210,7 @@ a:hover {
     display: inline-block;
   }
   .title-heading {
-    font-size: 0;
+    font-size: 0;display: none;
   }
   /* .hero-video-container.home-video:after {
     height: auto;
