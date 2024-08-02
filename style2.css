@@ -237,6 +237,17 @@ a:hover {
     text-align: center;
 
   }
+  .card-container {
+  width: 100%;
+  height: 630px; /* Adjust this value as needed */
+  overflow: hidden; /* Optional: hides any overflow if the image is too large */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
   .copyright .pull-left,.copyright .pull-right{float: none !important;        display: block;}
 }
 .menu.col-md-12.cover:after {
