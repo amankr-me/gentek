@@ -150,7 +150,7 @@ a:hover {
 .aboutfirstSec{
   text-align: justify;
 }
-.aboutimg1,.aboutimg2{border: 10px solid #15ff00;}
+.aboutimg1,.aboutimg2{border: 5px solid #15ff00;}
 .aboutimg2{margin:15px 0;}
 @media screen and (max-width: 767px) {
   .SlideShow_Height {
