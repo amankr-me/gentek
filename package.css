@@ -289,6 +289,7 @@ header.top {
   letter-spacing: 0.5px;
   line-height: 30px;
   color: #282828;
+  color:#fff;
   transition: all ease-in-out 0.5s;
 }
 
@@ -353,7 +354,7 @@ header.top {
   background: rgb(212,23,30);
 }
  #package .packageBlock ul.listpackage{
-     border-radius: 5px;    min-height: 320px;
+     border-radius: 5px;    min-height: 320px;    background: #741013;
 }
 .sectionHeading:after {
   left: 0;

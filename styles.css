@@ -14,7 +14,7 @@ p {
   line-height: 2;
 }
 .top-section {
-  background-color: #273656;
+  background-color: #741013;
   color: #fff;
   margin-bottom: 4px;
   padding-bottom: 4px;
@@ -96,8 +96,8 @@ nav a:hover {
   height: 100%;
 } /* design & development */
 .skills {
-  background-color: #273656;
-  background-color: #273656d6;
+  
+  background-color: #0c0a0abf;
   color: #dae1e7;
   font-family: "Montserrat";
 }
@@ -144,7 +144,7 @@ nav a:hover {
   background-color: #da2d2d;
 }
 .footer-section {
-  background-color: #273656;
+  background-color: #741013;
   color: #fff;
   padding: 5%;
   text-align: center;
@@ -161,7 +161,7 @@ nav a:hover {
  
 }
 .footer-small-contact-subtitle {
-  color: #273656;
+  color: #741013;
   font-size: 1.0rem;
   text-align: left;
   font-weight: 800;
@@ -183,7 +183,7 @@ nav a:hover {
   background-size: cover;
 }
 .copyright {
-  background-color: #030b1f;
+  background-color: #690c0f;
   
   color: #fff;
   text-align: center;
@@ -312,7 +312,7 @@ nav a:hover {
     
   }
   .footer-small-contact-subtitle {
-    color: #273656;
+    color: #741013;
     font-size: 1.8rem;
     text-align: center;
     font-weight: 900;

@@ -115,7 +115,7 @@ nav a {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #273656;
+  background-color: #741013;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -158,7 +158,7 @@ a:hover {
 .aboutimg2{margin:15px 0;}
 @media screen and (max-width: 767px) {
   .SlideShow_Height {
-    height: 320px !important;
+    height: 290px !important;
   }
   .col-md-8.hidden-xs {
     display: none;
@@ -177,9 +177,12 @@ a:hover {
   .hero-video-container.home-video:after{
     height: 26vh;
   }
-  video{
+  /* video{
     height: 31vh;
-  }
+  } */
+  .home-video {
+    height: 26vh !important;
+}
 }
 @media screen and (max-width: 767px) {
   .topright {
@@ -204,11 +207,12 @@ a:hover {
   }
   .menu-image {
     display: block;
-    margin-top: 5%;
+    margin-top: 2%;
   }
   /* .hero-video-container.home-video:after {
     top: 76px;
   } */
+   #package{padding:1rem 0;}
   .videotext {
     margin-top: -32%;
   }
@@ -326,7 +330,7 @@ a:hover {
   width: 60px;
   margin-bottom: 1px;
   z-index: 2;
-  background-color: #273656;
+  background-color: #741013;
 }
 #fixed-social i {
   color: #000;
