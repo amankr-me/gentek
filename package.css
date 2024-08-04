@@ -377,4 +377,13 @@ header.top {
       margin-right: 0;
       margin-bottom: 15px;
   }
+  #package{padding:1rem;}
+
+  #package .sectionHeading:after {
+    text-align: center;
+    margin: 0 auto;
+}
+.sectionHeading h4 {
+  text-align: center ;
+}
 }
