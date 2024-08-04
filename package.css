@@ -3,7 +3,7 @@ User Profile Sidebar by @keenthemes
 A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
 Licensed under MIT
 ***/
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
 /* body {
   font-family: 'Quicksand', sans-serif;
   overflow-x: hidden;
@@ -113,6 +113,7 @@ header.top {
   padding: 0;
   list-style-type: none;
   font-size: 0; 
+  padding:10vh 0;
 }
 .packageList > li {
   display: inline-block;
@@ -254,7 +255,7 @@ header.top {
   font-size: 15px;
   font-weight: 400;
 }
-.packageBlock > h3 {
+.packageBlock > h3{
   font-size: 20px;
   line-height: 24px;
   color: #741013;
@@ -276,7 +277,7 @@ header.top {
   padding: 20px 20px 50px;
   box-sizing: border-box;
   border-radius: 15px;
-  background: #741013;
+
   list-style-type: none;
   margin-bottom: 30px;
 }
@@ -290,9 +291,7 @@ header.top {
   color: #282828;
   transition: all ease-in-out 0.5s;
 }
-.packageBlock ul li {
-  color: #fff;
-}
+
 .importanceNotice {
   display: inline-block;
   vertical-align: middle;
@@ -353,7 +352,24 @@ header.top {
 .packageBlock .packagebtn {
   background: rgb(212,23,30);
 }
+ #package .packageBlock ul.listpackage{
+     border-radius: 5px;    min-height: 320px;
+}
+.sectionHeading:after {
+  left: 0;
+  bottom: 0;
+  content: '';
+  height: 4px;
+  width: 100px;
+  position: relative;
+  border-radius: 10px;
+  margin: 0;
+  background: #d4171e;
+  display: block;
 
+}
+
+.sectionHeading h4{text-align: left;}
 @media (max-width: 767px) {
   .packageList > li {
       width: 100%;

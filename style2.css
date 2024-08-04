@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 .hero-video-container.home-video:after {
   content: "";
   width: 100%;
-  height: 106.5vh;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
@@ -17,9 +18,9 @@
     rgba(0, 0, 0, 0.5) 100%
   );
 }
-.win .hero-video-container.home-video:after{
-  height: 116.4%;
-}
+/* .win .hero-video-container.home-video:after{
+  height: 117.4%;
+} */
  #about-section .card-img,#about-section .card-img-top {
   object-fit: cover;
   height: 300px;
@@ -45,6 +46,7 @@ ul.nav {
 }
 .menu {
   z-index: 9;
+  background-color: #741013;
 }
 .menu .col-md-8 {
   float: right;
@@ -66,9 +68,9 @@ ul.nav {
 ul.nav li {
   padding: 0 1rem;
 }
-.hero-video-container video {
+/* .hero-video-container video {
   margin-top: -7.2rem;
-}
+} */
 nav a {
   color: #fff;
   font-weight: 600;
@@ -81,9 +83,11 @@ nav a {
   text-align: right;
   padding-right: 3rem;
 }
-.title-image {
+/* .title-image {
   margin-top: 1.4rem;
-}
+} */
+ .menu .col-md-4{text-align: left;}
+ .home-video{position: absolute;}
 .menu.col-md-12.cover {
   background-image: url(images/header_images/female-researcher-male-colleague-laboratory-with-test-tubes-safety-glasses.jpg);
   height: 500px;
@@ -150,11 +154,11 @@ a:hover {
 .aboutfirstSec{
   text-align: justify;
 }
-.aboutimg1,.aboutimg2{border: 5px solid #15ff00;}
+.aboutimg1,.aboutimg2{border: 5px solid #741013;}
 .aboutimg2{margin:15px 0;}
 @media screen and (max-width: 767px) {
   .SlideShow_Height {
-    height: 190px !important;
+    height: 320px !important;
   }
   .col-md-8.hidden-xs {
     display: none;
@@ -163,7 +167,10 @@ a:hover {
     width: 80%;
     float: left;
   }
-  
+  .menu {
+
+    display: flex;
+}
   #carouselExampleIndicators .carousel-item{
     height:44vh;
   }
@@ -182,9 +189,9 @@ a:hover {
     top: 1rem;
     padding: 0;
   }
-  .hero-video-container video {
+  /* .hero-video-container video {
     margin-top: -6.4rem;
-  }
+  } */
   .topleft {
     text-align: center;
     padding-left: 0;
@@ -341,8 +348,8 @@ a:hover {
   transition-duration: 0.5s;
   z-index: 1;
   opacity: 0;
-  background-color: #15ff00;
-  color:#273656;
+  background-color: #741013;
+  color:#fff;
 }
 #fixed-social a:hover>span {
   visibility: visible;
@@ -358,9 +365,9 @@ a:hover {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 .introtext{
   margin-top: -330px;
 }
-/*#15ff00*/
+/*#741013*/
