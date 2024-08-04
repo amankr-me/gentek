@@ -351,3 +351,87 @@ p {
   text-align:left;
   margin: 100px auto;
 }
+.ofertas-bg{
+  color: #ffffff;
+  background-color: #7A1600;
+}
+
+.oferta{
+  background-color: #BD2909;
+  display: inline;
+  width: 320px;
+  padding: 25px;
+  color: #FFAE00;
+}
+.productos, .ofertas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px 0;
+  
+}
+
+.producto, .oferta {
+  color: #FFAE00;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.producto img, .oferta img {
+    max-width: 100%;
+}
+
+.producto h3, .oferta h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.producto p, .oferta p {
+    font-size: 18px;
+    color: #FFAE00;
+}
+#package .packageBlock,
+#package .packageBlock ul {
+  padding: 20px 10px;
+  border: 1px solid #f0f0f0;
+}
+#package .packageBlock ul {
+  margin-bottom: 20px;
+}
+.packagebtn, .packagebtn:hover, .packagebtn:focus {
+    display: inline-block;
+    width: auto;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 30px;
+    background: #d4171e;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
+}
+.fullpackagebtn, .fullpackagebtn:hover, .fullpackagebtn:focus {
+    display: inline-block;
+    width: auto;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 30px;
+    background: #d4171e;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
+    margin-top: 30px;
+}
+.mostpopular {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
