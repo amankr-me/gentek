@@ -101,6 +101,9 @@ nav a {
 .menu.col-md-12.cover.contact {
   background-image: url(images/header_images/pexels-polina-tankilevitch-3735782.jpg);
 }
+.menu.col-md-12.cover.career {
+  background-image: url(images/header_images/pexels-artempodrez-5726835.jpg);
+}
 .menu.col-md-12.cover.gallery {
     background-image: url(images/header_images/scientist-working-with-chemical-substances.jpg);
   }
