@@ -162,6 +162,9 @@ a:hover {
 .abtintro{text-align: justify;text-align: left;}
 .abtdoc{width:50%;}
 .abtdoc.abthkumar{width:75%}
+.text-secondary{
+min-height:372px;
+}
 @media screen and (max-width: 767px) {
   .SlideShow_Height {
     height: 290px !important;
