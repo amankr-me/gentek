@@ -26,7 +26,7 @@
     //     siteFooter.classList.add('fixed-bottom', 'bottom-0', 'left-0', 'w-full');
     // }
     /* Animate On Scroll */
-    // AOS.init();
+    AOS.init();
     /* Owl Carousel */
     $('.owl-carousel').owlCarousel({
         loop: true,

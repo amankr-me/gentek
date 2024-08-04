@@ -154,8 +154,11 @@ a:hover {
 .aboutfirstSec{
   text-align: justify;
 }
-.aboutimg1,.aboutimg2{border: 5px solid #741013;}
+/* .aboutimg1,.aboutimg2{border: 5px solid #741013;} */
 .aboutimg2{margin:15px 0;}
+.abtintro{text-align: justify;text-align: left;}
+.abtdoc{width:50%;}
+.abtdoc.abthkumar{width:75%}
 @media screen and (max-width: 767px) {
   .SlideShow_Height {
     height: 290px !important;
@@ -209,10 +212,11 @@ a:hover {
     display: block;
     margin-top: 2%;
   }
+  .abtdoc,.abtdoc.abthkumar{width:100%;padding-bottom: 10px;}
   /* .hero-video-container.home-video:after {
     top: 76px;
   } */
-   #package{padding:1rem 0;}
+  
   .videotext {
     margin-top: -32%;
   }
