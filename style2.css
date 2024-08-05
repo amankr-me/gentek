@@ -181,6 +181,9 @@ min-height:372px;
     width: 80%;
     float: left;
   }
+  .AboutAuthorities .py-5 {
+    padding-bottom: 0rem !important;
+}
   .menu {
 
     display: flex;
