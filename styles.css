@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat";
   text-align: center;
+  font-family: Poppins, sans-serif !important;
 }
 h1,
 h2,
@@ -30,7 +31,12 @@ p {
 }
 .top-icon {
   margin-right: 10px;
-} /* titleImage */
+}
+.contact{
+  width:100%;
+}
+
+/* titleImage */
 .bg {
   height: 100%; /* Center and scale the image nicely */
   background-position: right;
@@ -41,10 +47,10 @@ p {
    padding: 7% 11%; 
     
 } 
-.introcont{
+/* .introcont{
   padding: 10% 11%;
   padding-top: 0;
-}
+} */
 /* Navigation bar */
 .navbar {
   padding: 0 0 4.5rem;

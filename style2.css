@@ -160,11 +160,14 @@ a:hover {
 /* .aboutimg1,.aboutimg2{border: 5px solid #741013;} */
 .aboutimg2{margin:15px 0;}
 .abtintro{text-align: justify;text-align: left;}
-.abtdoc{width:50%;}
+.abtdoc{width:50%;    border-radius: 15px;}
 .abtdoc.abthkumar{width:75%}
 .text-secondary{
 min-height:372px;
 }
+.abtintro p{text-align: justify;}
+.hidden-lg,.hidden-md{display:none;}
+.hidden-xs{display:block;}
 @media screen and (max-width: 767px) {
   .SlideShow_Height {
     height: 290px !important;
@@ -172,6 +175,8 @@ min-height:372px;
   .col-md-8.hidden-xs {
     display: none;
   }
+  .hidden-xs{display: none;}
+  .hidden-lg,.hidden-md{display:block;}
   .title-image {
     width: 80%;
     float: left;
@@ -192,6 +197,7 @@ min-height:372px;
   .home-video {
     height: 26vh !important;
 }
+.careerDetails .col-lg-6{width:50%;}
 }
 @media screen and (max-width: 767px) {
   .topright {
@@ -372,7 +378,7 @@ min-height:372px;
 }
 .copyright .pull-right{float:right;}
 .copyright .pull-left{float:left;}
-.introdiv{
+/* .introdiv{
   background-image: url(images/logo_new/png/onlylogo.png);
   background-size: contain;
   height: 400px;
@@ -380,8 +386,8 @@ min-height:372px;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.2;
-}
-.introtext{
+} */
+/* .introtext{
   margin-top: -330px;
-}
+} */
 /*#741013*/
