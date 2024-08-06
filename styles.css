@@ -301,8 +301,8 @@ nav a:hover {
     font-size: 2.3rem;
   }
   .getintouch {
-    width: 70%;
-    font-size: 1.5rem;
+    width: 100%;
+    /* font-size: 1.5rem; */
   }
   .contact-button {
     font-size: 1rem;
