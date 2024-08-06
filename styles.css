@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat";
   text-align: center;
   font-family: Poppins, sans-serif ;
+  overflow-x:hidden;
 }
 h1,
 h2,
@@ -309,12 +310,12 @@ nav a:hover {
   .footer-small-heading {
     color: #fff;
     font-size: 2.3rem;
-    text-align: center;
+    /* text-align: center; */
   }
   .footer-small-subtitle {
     color: #fedb35;
-    font-size: 1.8rem;
-    text-align: center;
+    font-size: 1.6rem;
+    /* text-align: center; */
     
   }
   .footer-small-contact-subtitle {
@@ -330,11 +331,16 @@ nav a:hover {
   }
   .footer-p {
     font-size: 1.2rem;
-    text-align: center;
+    line-height: 1.5;
+    /* text-align: center; */
   }
   .footer-icon {
     margin: 20px;
     font-size: 3rem;
+  }
+  .footer-section.container-fluid{
+    position: relative;
+    z-index: 9;
   }
   .copyright {
     

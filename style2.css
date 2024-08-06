@@ -181,6 +181,10 @@ min-height:372px;
     width: 80%;
     float: left;
   }
+  footer .title-image {
+    width: 100%;
+    
+  }
   .AboutAuthorities .py-5 {
     padding-bottom: 0rem !important;
 }
@@ -203,6 +207,7 @@ min-height:372px;
 .careerDetails .col-lg-6{width:50%;}
 }
 @media screen and (max-width: 767px) {
+  body p{text-align: justify;}
   .topright {
     text-align: center;
   }
@@ -210,6 +215,7 @@ min-height:372px;
     top: 1rem;
     padding: 0;
   }
+
   /* .hero-video-container video {
     margin-top: -6.4rem;
   } */
@@ -279,6 +285,18 @@ min-height:372px;
   /* object-fit: fill; */
 }
   .copyright .pull-left,.copyright .pull-right{float: none !important;        display: block;}
+
+  .metrologo{width:100%;}
+ footer .metrologo {
+    /* width: 50%; */
+padding: 1rem 4rem;
+}
+  h1{font-size: 2.2rem;}
+  .hero-video-container.home-video:after {
+   
+    background-color: rgb(0 0 0 / 57%);
+    background-image: none;
+}
 }
 .menu.col-md-12.cover:after {
   content: "";
@@ -312,6 +330,9 @@ min-height:372px;
   .col-md-8.hidden-xs {
     display: none;
   }
+  footer .title-image {
+    width: 100%;   
+}
 }
 .testimonial {
   background-image: url(../images/testimonial-bg.jpg);
