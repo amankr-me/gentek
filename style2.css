@@ -113,7 +113,7 @@ nav a {
   }
 .top-section {
   z-index: 9;    position: absolute;
-  width: 100%;
+  width: 100%;min-height: 41px;
 }
 .sidenav {
   height: 100%;
@@ -233,7 +233,7 @@ min-height:372px;
     height: 31vh;
   } */
   .home-video {
-    height: 26vh !important;        margin-top: 6vh;
+    height: 26vh !important;        margin-top: 4vh;
 }
 .careerDetails .col-lg-6{width:50%;}
 }
@@ -258,7 +258,7 @@ min-height:372px;
     padding: 0.5rem;font-size:14px;
   }
   .menu.col-md-12 {
-    top: 59px;
+    top: 41px;
 }
   .cover .col-md-8 {
     display: none;
