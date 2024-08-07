@@ -134,6 +134,8 @@ nav a:hover {
   float: right;
   margin-left: 30px;
 }
+ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section{overflow-x: hidden;} 
+html,body{overflow-x: hidden;}
 .contact-me {
   background-color: #f7f7f7;
 }
@@ -321,9 +323,9 @@ nav a:hover {
   .footer-small-contact-subtitle {
     color: #741013;
     font-size: 1.8rem;
-    text-align: center;
+
     font-weight: 900;
-    font-size: 28px;
+    font-size: 26px;
   }
   .footer-brand {
     font-size: 3rem;

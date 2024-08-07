@@ -351,7 +351,7 @@ header.top {
   transition: all ease-in-out 0.5s;
 }
 .packageBlock .packagebtn {
-  background: rgb(212,23,30);
+  background: #741013;
 }
  #package .packageBlock ul.listpackage{
      border-radius: 5px;    min-height: 320px;    background: #741013;
@@ -365,7 +365,7 @@ header.top {
   position: relative;
   border-radius: 10px;
   margin: 0;
-  background: #d4171e;
+  background: #741013;
   display: block;
 
 }

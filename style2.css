@@ -48,6 +48,9 @@ ul.nav {
   z-index: 9;
   background-color: #741013;
 }
+.menu.col-md-12{
+  top:36px;
+}
 .menu .col-md-8 {
   float: right;
   top: -3rem;
@@ -91,6 +94,7 @@ nav a {
 .menu.col-md-12.cover {
   background-image: url(images/header_images/female-researcher-male-colleague-laboratory-with-test-tubes-safety-glasses.jpg);
   height: 500px;
+  height: 50vh;
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,14 +149,35 @@ a:hover {
   text-decoration: none;
   color: #ccddeb;
 }
+.galleryhead h1{
+padding:4rem 2rem;
+}
+
+.careerDetails.container-fluid {
+  padding: 5% 11%;
+}
+.container-fluid.services{
+  padding: 5% 11%;
+} 
+
+.services .introtext{
+  text-align:left;
+}
+.abtintro1 {text-align:left;}
 .contacth {
-  text-align: center;
+  text-align: left;
   color: #fff;
+  color:#741013;
   font-weight: 800;
   font-size: 5rem;
-  padding-top: 10%;
+  /* padding-top: 10%; */
   z-index: 3;
   position: relative;
+  padding: 2rem 0;
+
+}
+.introcont{
+  text-align: left;
 }
 .aboutfirstSec{
   text-align: justify;
@@ -170,11 +195,17 @@ min-height:372px;
 .hidden-xs{display:block;}
 @media screen and (max-width: 767px) {
   .SlideShow_Height {
-    height: 290px !important;
+    height: 365px !important;
   }
   .col-md-8.hidden-xs {
     display: none;
   }
+  .services .contacth{
+    padding: 4rem 0;
+  }
+  .careerDetails.container-fluid {
+    padding: 12% 11%;
+}
   .hidden-xs{display: none;}
   .hidden-lg,.hidden-md{display:block;}
   .title-image {
@@ -202,7 +233,7 @@ min-height:372px;
     height: 31vh;
   } */
   .home-video {
-    height: 26vh !important;
+    height: 26vh !important;        margin-top: 6vh;
 }
 .careerDetails .col-lg-6{width:50%;}
 }
@@ -220,12 +251,15 @@ min-height:372px;
     margin-top: -6.4rem;
   } */
   .topleft {
-    text-align: center;
-    padding-left: 0;
+    /* text-align: center; */
+    padding-left: 15px;
   }
   .top-section .container-fluid {
-    padding: 1rem;
+    padding: 0.5rem;font-size:14px;
   }
+  .menu.col-md-12 {
+    top: 59px;
+}
   .cover .col-md-8 {
     display: none;
   }
@@ -255,13 +289,9 @@ min-height:372px;
     padding: 0;
   }
   .contacth {
-    text-align: center;
-    color: #fff;
-    font-weight: 800;
+
     font-size: 40px;
-    padding-top: 30%;
-    z-index: 3;
-    position: relative;
+  
   }
   .menu.col-md-12.cover {
     height: 200px;
@@ -416,7 +446,21 @@ padding: 1rem 4rem;
   margin-top: -330px;
 } */
 
+footer a{color:#fff;}
 
+.contacth:after {
+  left: 0;
+  bottom: 0;
+  content: '';
+  height: 4px;
+  width: 100px;
+  position: relative;
+  border-radius: 10px;
+  margin: 0;
+
+  background : #741013;
+  display: block;
+}
 @media screen and (max-width:767px){
   #fixed-social a {
  
@@ -430,5 +474,9 @@ padding: 1rem 4rem;
   display:none;
 }
 .exclu{text-align: justify;}
+.careerDetails{
+  padding: 7% 2%;
+}
+
 }
 /*#741013*/
