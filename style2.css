@@ -227,7 +227,7 @@ min-height:372px;
     height:44vh;
   }
   .hero-video-container.home-video:after{
-    height: 31.5vh;
+    height: 26vh;
   }
   /* video{
     height: 31vh;
@@ -478,5 +478,10 @@ footer a{color:#fff;}
   padding: 7% 2%;
 }
 
+}
+@media screen and (max-width:380px){
+  .hero-video-container.home-video:after{
+    height: 31.5vh;
+  }
 }
 /*#741013*/
