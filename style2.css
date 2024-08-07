@@ -195,7 +195,7 @@ min-height:372px;
 .hidden-xs{display:block;}
 @media screen and (max-width: 767px) {
   .SlideShow_Height {
-    height: 365px !important;
+    height: 315px !important;
   }
   .col-md-8.hidden-xs {
     display: none;
@@ -227,7 +227,7 @@ min-height:372px;
     height:44vh;
   }
   .hero-video-container.home-video:after{
-    height: 26vh;
+    height: 31.5vh;
   }
   /* video{
     height: 31vh;
