@@ -231,7 +231,7 @@ min-height:372px;
 }
   #carouselExampleIndicators .carousel-item{
     margin-top: 36px;
-    height:200px;
+    height: 52vw;
     object-fit: fill;
   }
   .carousel-indicators{
