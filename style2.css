@@ -38,7 +38,13 @@
 }
 
 #carouselExampleIndicators .carousel-item{
-  height: 90vh;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  /* height: 100vh; */
+  overflow: hidden;
+ 
 }
 ul.nav {
   list-style: none;
@@ -201,7 +207,7 @@ min-height:372px;
     display: none;
   }
   .services .contacth{
-    padding: 4rem 0;
+    padding: 2rem 0 4px 0;
   }
   .careerDetails.container-fluid {
     padding: 12% 11%;
@@ -224,7 +230,12 @@ min-height:372px;
     display: flex;
 }
   #carouselExampleIndicators .carousel-item{
-    height:44vh;
+    margin-top: 36px;
+    height:200px;
+    object-fit: fill;
+  }
+  .carousel-indicators{
+    z-index: 8!important;
   }
   .hero-video-container.home-video:after{
     height: 26vh;
@@ -288,9 +299,15 @@ min-height:372px;
   #title .container-fluid {
     padding: 0;
   }
+  .galleryhead h1 {
+    padding: 1.5rem 1rem 0.5rem 1rem;
+}
   .contacth {
-
-    font-size: 40px;
+    
+    font-size: 32px;
+    z-index: 3;
+    position: relative;
+    padding: 0 0;
   
   }
   .menu.col-md-12.cover {
@@ -316,7 +333,9 @@ min-height:372px;
 }
   .copyright .pull-left,.copyright .pull-right{float: none !important;        display: block;}
 
-  .metrologo{width:100%;}
+  .metrologo{
+    width:100%;
+  }
  footer .metrologo {
     /* width: 50%; */
 padding: 1rem 4rem;
