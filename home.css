@@ -505,6 +505,7 @@ h1, h2, h3, h4 {
   display: grid; grid-template-columns: 1.4fr .8fr;
   background: var(--brand-900);
 }
+.offer > * { min-width: 0; }
 /* Photo set per slide as --offer-img, same convention as --pagehead-img. */
 .offer__body {
   position: relative; overflow: hidden; color: #fff;
@@ -578,8 +579,31 @@ h1, h2, h3, h4 {
 .offer--banner .offer__list { justify-content: center; }
 
 @media (max-width: 700px) {
-  .offer { grid-template-columns: 1fr 1fr; }
-  .offer__list li:nth-child(n+4) { display: none; }
+  /* Stack rather than split: at this width a side-by-side price column forces
+     the grid wider than the frame and the price is clipped off the edge.
+     Height goes auto so the full test list always fits. */
+  .offer { aspect-ratio: auto; grid-template-columns: 1fr; }
+  .offer__body {
+    min-height: 11rem; gap: .5rem;
+    /* Clears the arrows, which stay overlaid on both edges. */
+    padding: 1.35rem 3.15rem;
+  }
+  .offer__title { font-size: 1.3rem; }
+  .offer__list li { font-size: .72rem; padding: .3em .7em; }
+  .offer__meta { font-size: .68rem; }
+  .offer__price {
+    flex-direction: row; align-items: baseline; justify-content: center; gap: .5rem;
+    padding: .7rem 1rem;
+    border-left: 0; border-top: 1px solid rgba(255, 255, 255, .16);
+  }
+  .offer__price-label { font-size: .6rem; }
+  .offer__price-value { font-size: 1.7rem; }
+
+  /* Slides all stretch to the tallest in the track. Now that heights vary,
+     the card has to fill its slide or shorter ones leave a gap beneath. */
+  .promo__slide { display: flex; }
+  .promo__slide > .offer { flex: 1; grid-template-rows: 1fr auto; }
+  .promo__slide > .offer--banner { grid-template-rows: 1fr; }
 }
 
 /* Arrows sit on the frame edge */
@@ -1164,8 +1188,14 @@ h1, h2, h3, h4 {
   .topbar .shell { min-height: 36px; }
   .brand img { width: 152px; }
   .hero__actions .btn { flex: 1 1 100%; }
-  .hero__chip--metro { display: none; }
+  .hero__chip--metro {
+    right: .75rem; top: .75rem; padding: .55rem .7rem; gap: .2rem;
+  }
+  .hero__chip--metro img { width: 92px; }
+  .hero__chip--metro small { font-size: .58rem; letter-spacing: .08em; }
   .hero__chip--reg { left: .75rem; bottom: .75rem; padding: .7rem .9rem; }
+  /* The Metropolis partner chip above the hero image already says this. */
+  .hero__badge { display: none; }
   .rail-head { flex-direction: column; align-items: flex-start; }
   .rail-nav { align-self: flex-end; }
   .footer-grid { grid-template-columns: 1fr; }
